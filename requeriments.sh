@@ -1,5 +1,7 @@
-echo "Install Stanza NLP.."
-pip install stanza -U
+#!/bin/bash
 
-echo "Install Model Stanza EN.."
-python -m stanza stanza.download('en')
+echo "Install Stanza NLP.."
+pip install -U stanza
+
+echo "Install Model Lang En.."
+python -c "import stanza; stanza.download('en')"
