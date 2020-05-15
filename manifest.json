@@ -1,7 +1,7 @@
 {
-    "manifest_version": "1",
+    "manifest_version": "1.0.1",
     "name": "Stanza",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "keyname": "stanza",
     "description": "Stanza: A Python NLP Library for Many Human Languages",
     "site": "https://stanfordnlp.github.io/stanza/",
