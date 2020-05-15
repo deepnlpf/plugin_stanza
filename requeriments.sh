@@ -3,5 +3,5 @@
 echo "Install Stanza NLP.."
 pip install -U stanza
 
-echo "Install Model En.."
+echo "Download English Model.."
 python requeriments.py
